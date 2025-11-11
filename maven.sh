@@ -2,7 +2,7 @@
 set -e
 
 # === SonarQube Configuration ===
-SONAR_HOST_URL=${SONAR_HOST_URL:-"http://51.20.185.44:9001"}
+SONAR_HOST_URL=${SONAR_HOST_URL:-"http://51.20.185.44:9000"}
 SONAR_TOKEN=${SONAR_TOKEN:-"squ_69167e9fd610e5cbeea18493cbaeb438ee0c52e6"}
 
 echo "=== Building Java Project ==="
